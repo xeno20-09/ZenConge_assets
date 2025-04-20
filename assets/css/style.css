@@ -877,5 +877,60 @@ Status
     color: #cfa00c; }
     .table tbody td.status .waiting:after {
       background: #f2be1d; }
-
+      .table tbody td.status .en_cours {
+        background: #dbeeff;
+        color: #0c6db4;
+    }
+    .table tbody td.status .en_cours:after {
+        background: #1d9bf2;
+    }
+    
+    .table tbody td.status .acceptee {
+        background: #d6f5e6;
+        color: #0c9b4c;
+    }
+    .table tbody td.status .acceptee:after {
+        background: #1dc974;
+    }
+    
+    .table tbody td.status .refusee {
+        background: #fddddd;
+        color: #c70c0c;
+    }
+    .table tbody td.status .refusee:after {
+        background: #f21d1d;
+    }
+    
+    .table tbody td.status .annulee {
+        background: #e8e8e8;
+        color: #6c757d;
+    }
+    .table tbody td.status .annulee:after {
+        background: #adb5bd;
+    }
+    
+    .table tbody td.status .terminee {
+        background: #d3f9d8;
+        color: #146c43;
+    }
+    .table tbody td.status .terminee:after {
+        background: #198754;
+    }
+    
+    .table tbody td.status .en_revision {
+        background: #ffe9d5;
+        color: #db7200;
+    }
+    .table tbody td.status .en_revision:after {
+        background: #ff8c1a;
+    }
+    
+    .table tbody td.status .en_suspend {
+        background: #f0e9f9;
+        color: #6f42c1;
+    }
+    .table tbody td.status .en_suspend:after {
+        background: #8f5bdc;
+    }
+    
 /*========================Thank you=================
