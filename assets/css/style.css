@@ -877,10 +877,19 @@ Status
     color: #cfa00c; }
     .table tbody td.status .waiting:after {
       background: #f2be1d; }
+
+      .table tbody td.status .en_attente {
+        background: #fdf5dd;
+        color: #cfa00c;
+    }
+    .table tbody td.status .en_attente:after {
+        background: #f2be1d;
+    }
       .table tbody td.status .en_cours {
         background: #dbeeff;
         color: #0c6db4;
     }
+
     .table tbody td.status .en_cours:after {
         background: #1d9bf2;
     }
