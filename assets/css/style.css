@@ -713,8 +713,8 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
     background: #09db33;
     border: 1px solid #09db33;
     cursor:pointer;
-    box-shadow: 0 5px 20px rgba(0,0,0,.2);
-     -webkit-transition: .5s; 
+/*     box-shadow: 0 5px 20px rgba(0,0,0,.2);
+ */     -webkit-transition: .5s; 
     -moz-transition:.5s; 
     -ms-transition:.5s; 
     -o-transition:.5s;
@@ -725,7 +725,7 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
     margin-top:0px;
     outline: 0 !important;
     border:0;
-    color: #fff;
+    color: #09db33;
     border-radius: 0px;
     font-size:14px;
     -webkit-transition: .5s; 
